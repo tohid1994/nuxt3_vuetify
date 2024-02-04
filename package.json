@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "nuxt": "^3.10.0",
+    "vite-plugin-vuetify": "^2.0.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.5.2"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/moment": "^1.6.1",
+    "@pinia/nuxt": "^0.5.1",
+    "@types/moment-jalaali": "^0.7.9",
+    "@vite-pwa/nuxt": "^0.4.0",
+    "moment": "^2.30.1",
+    "moment-jalaali": "^0.10.0",
+    "moment-timezone": "^0.5.45",
+    "vue3-persian-datetime-picker": "^1.2.2",
+    "vue3-toastify": "^0.2.1"
+  }
+}
